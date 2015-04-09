@@ -44,7 +44,7 @@ In case you want to use other themes use:
 
 You will get the following file structure:
 
-```
+```markdown
 |-- bower_components
 |   |-- [buttons](http://tef-components.github.io/buttons/index.html)
 |   |-- [checkboxes](http://tef-components.github.io/checkboxes/index.html)
