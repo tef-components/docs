@@ -44,30 +44,30 @@ In case you want to use other themes use:
 
 You will get the following file structure:
 
-```markdown
+```
 |-- bower_components
-|   |-- [buttons](http://tef-components.github.io/buttons/index.html)
-|   |-- [checkboxes](http://tef-components.github.io/checkboxes/index.html)
-|   |-- [dropdowns](http://tef-components.github.io/dropdowns/index.html)
-|   |-- [grid](http://tef-components.github.io/grid/index.html)
-|   |-- [headers](http://tef-components.github.io/headers/index.html)
-|   |-- [icons](http://tef-components.github.io/icons/fonts/icons.html)
-|   |-- [inputs](http://tef-components.github.io/inputs/index.html)
-|   |-- [lists](http://tef-components.github.io/lists/index.html)
-|   |-- [modals](http://tef-components.github.io/modals/index.html)
-|   |-- [radios](http://tef-components.github.io/radios/index.html)
-|   |-- [sidebars](http://tef-components.github.io/sidebars/index.html)
-|   |-- [tables](http://tef-components.github.io/tables/index.html)
-|   |-- [tabs](http://tef-components.github.io/tabs/index.html)
-|   |-- [theme_telefonica](http://tef-components.github.io/theme_telefonica/index.html)
-|   |-- [toolbars](http://tef-components.github.io/toolbars/index.html)
-|   |-- [tooltips](http://tef-components.github.io/tooltips/index.html)
+|   |-- buttons
+|   |-- checkboxes
+|   |-- dropdowns
+|   |-- grid
+|   |-- headers
+|   |-- icons
+|   |-- inputs
+|   |-- lists
+|   |-- modals
+|   |-- radios
+|   |-- sidebars
+|   |-- tables
+|   |-- tabs
+|   |-- theme_telefonica
+|   |-- toolbars
+|   |-- tooltips
 |   |-- utils
 ```
 
-* Most folders will contain a component (click on each name to get a preview).
+* Most folders will contain a component.
 * theme_telefonica folder, in that case, is were we will generate our styles.
-* utils folder contain a set of mixins and resets (nothing to demo here).
+* utils folder contain a set of mixins and resets.
 
 ## Usage
 
@@ -78,9 +78,9 @@ Those are the important files:
 |-- buttons
 |   |-- less
 |   |   |-- buttons.less
-.
-.
-.
+
+…
+
 |-- theme_yourthemename
 |   |-- Gruntfile.js
 |   |-- less
