@@ -26,7 +26,7 @@ See all components:
 
 And all templates (components combined together):
 
-* [Components](http://tef-components.github.io/tools/templates.html)
+* [Templates](http://tef-components.github.io/tools/templates.html)
 
 
 ## Installation
@@ -44,6 +44,7 @@ In case you want to use other themes use:
 
 You will get the following file structure:
 
+```
 |-- bower_components
 |   |-- [buttons](http://tef-components.github.io/buttons/index.html)
 |   |-- [checkboxes](http://tef-components.github.io/checkboxes/index.html)
@@ -62,6 +63,7 @@ You will get the following file structure:
 |   |-- [toolbars](http://tef-components.github.io/toolbars/index.html)
 |   |-- [tooltips](http://tef-components.github.io/tooltips/index.html)
 |   |-- utils
+```
 
 * Most folders will contain a component (click on each name to get a preview).
 * theme_telefonica folder, in that case, is were we will generate our styles.
@@ -72,6 +74,7 @@ You will get the following file structure:
 Browse your installed theme.
 Those are the important files:
 
+```
 |-- buttons
 |   |-- less
 |   |   |-- buttons.less
@@ -83,13 +86,13 @@ Those are the important files:
 |   |-- less
 |   |   |-- theme.less
 |   |   |-- variables.less
-
+```
 
 ### Gruntfile.js
 
 If you don't need the full set of components, you will be able to remove the unneeded ones by commenting the lines:
 
-```json
+```javascript
 less: {
   default: {
     files: {
@@ -109,7 +112,7 @@ less: {
 
 and the minified version:
 
-```json
+```javascript
 target: {
   files: {
     'css/components.telefonica.min.css': 'css/components.telefonica.css',
@@ -128,17 +131,19 @@ target: {
 
 Same thing here. To exclude unneeded components, comment the lines:
 
+```less
 // Components
 @import '../../grid/less/grid.less';
 @import '../../buttons/less/buttons.less';
 @import '../../inputs/less/inputs.less';
 @import '../../dropdowns/less/dropdowns.less';
 ...
+```
 
 ### Compiling less
 
 You will need [grunt](http://gruntjs.com/) installed.
-Then run in your console:
+Then run in your theme folder:
 
 ```bash
   grunt
